@@ -27,7 +27,7 @@ LOCAL_CFLAGS += $(common_CFLAGS)
 
 LOCAL_MODULE:= libcurl
 
-LOCAL_SHARED_LIBRARIES := -lz
+LOCAL_LDLIBS := -lz
 
 # crypto
 include $(LOCAL_PATH)/android-crypto.mk
